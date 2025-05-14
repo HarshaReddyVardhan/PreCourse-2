@@ -1,3 +1,9 @@
+// Time Complexity	O(log n)
+// Space Complexity	O(log n) (due to recursion stack)
+// Best Case	O(1) (if the element is at the middle)
+// Worst Case	O(log n)
+// Average Case	O(log n)
+
 class BinarySearch { 
     // Returns index of x if it is present in arr[l.. r], else return -1 
     int binarySearch(int arr[], int l, int r, int x) 
